@@ -30,7 +30,7 @@ function onOpenModalImg(e) {
 
   const instance = basicLightbox.create(
     `
-      <img src=${selectedImg}/>
+      <img src='${selectedImg}'/>
   `,
     {
       /*
@@ -63,13 +63,13 @@ function onOpenModalImg(e) {
   instance.show(() => {
     window.addEventListener("keydown", onEscKeyPress);
   });
-}
 
-function onEscKeyPress(e) {
-  console.log(e.code);
-  const ESC_KEY_CODE = "Escape";
-  if (e.code === ESC_KEY_CODE) {
-    instance.close();
+  function onEscKeyPress(e) {
+    console.log(e.code);
+    const ESC_KEY_CODE = "Escape";
+    if (e.code === ESC_KEY_CODE) {
+      instance.close();
+    }
   }
 }
 
