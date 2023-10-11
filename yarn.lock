@@ -6,3 +6,8 @@ basiclightbox@^5.0.4:
   version "5.0.4"
   resolved "https://registry.yarnpkg.com/basiclightbox/-/basiclightbox-5.0.4.tgz#5367d6d468ae44406e51b8486cfb8751f36f1fb2"
   integrity sha512-EsuNWmfcFXWZOe0txKXsllYOC7bDpoaVLc4HHHlYKB/roymlZs+FBdLUU6rx2yPpnJZhulwheKdPjqr2k0+NGQ==
+
+simplelightbox@^2.14.2:
+  version "2.14.2"
+  resolved "https://registry.yarnpkg.com/simplelightbox/-/simplelightbox-2.14.2.tgz#b6d92bddc2ecfcd0300a92cef54286103f977e2b"
+  integrity sha512-6Pm85SEs4sseY/Jf7AeXs8hbxQFv3CV2dXWF+8aZ2T4Rtl//WfVIGWkLTCUZX5hO8kIgHvf//xOjBwmZfx9hjA==
