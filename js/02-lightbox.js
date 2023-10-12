@@ -16,17 +16,11 @@ const markup = galleryItems
 
 galleryList.insertAdjacentHTML("beforeend", markup);
 
-galleryList.addEventListener("click", onOpenModalImg);
-
-function onOpenModalImg(e) {
-  e.preventDefault();
-
-  var lightbox = new SimpleLightbox(".gallery a", {
-    /* options */
-    captions: true,
-    captionPosition: "bottom",
-    captionDelay: 250,
-  });
-}
+var lightbox = new SimpleLightbox(".gallery a", {
+  /* options */
+  captions: true,
+  captionPosition: "bottom",
+  captionDelay: 250,
+});
 
 console.log(galleryItems);
